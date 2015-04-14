@@ -1,0 +1,421 @@
+@charset "UTF-8";
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\000033}}
+html {
+  font-family: 宋体; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\000036}}
+.body-box {
+  width: 100%;
+  margin: -7px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\000039}}
+.body-box .left-box {
+  width: 10%;
+  float: left;
+  position: absolute;
+  min-width: 39.6px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000312}}
+.body-box .right-box {
+  width: 89.9%;
+  background-color: #ffffff;
+  float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000315}}
+.left-box .logo {
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+  max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000318}}
+.left-box .line1 {
+  position: relative;
+  left: 5;
+  float: left;
+  top: 28px;
+  max-height: 100%;
+  max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000321}}
+.left-box .line {
+  display: block;
+  margin: 0 auto;
+  padding-top: 15px;
+  max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000324}}
+.function {
+  display: block;
+  margin: 0 auto;
+  padding-top: 30px;
+  cursor: pointer;
+  max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000327}}
+.left-box .function-word {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000330}}
+.left-box .function-footer-box {
+  padding-top: 350px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000333}}
+.right-box .title {
+  height: 138px;
+  background-color: #f1f1f1;
+  border: 1px solid #dee1e4;
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000336}}
+.right-box .title .h2 {
+  padding-left: 35px;
+  padding-top: 10px;
+  float: left;
+  display: block;
+  font-size: 17px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000339}}
+.right-box .title-buttom {
+  margin-top: 30px;
+  float: right;
+  margin-right: 8px;
+  border: 1px solid #c8c8c8;
+  height: 35px;
+  width: 200px;
+  cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000343}}
+.right-box .customer-center {
+  float: left;
+  padding: 9.25px 30px;
+  border: 1px #f1f1f1 solid;
+  background-color: #f0761f;
+  font-size: 12px;
+  color: white;
+  cursor: pointer;
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000346}}
+.right-box .name {
+  padding: 7.5px 10px;
+  float: left;
+  color: #4b4b4b; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000349}}
+.right-box .down-buttom {
+  padding-top: 15.25px;
+  float: left;
+  cursor: pointer;
+  width: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000352}}
+.body-box .home {
+  float: left;
+  text-align: center;
+  padding: 10px 10px;
+  width: 138px;
+  color: #797b80;
+  background-color: #ffffff;
+  font-size: 17px;
+  border: 1px solid #dee1e4;
+  border-bottom: 1px #ffffff solid;
+  cursor: pointer;
+  position: absolute;
+  left: 32px;
+  top: 98px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000359}}
+.right-box .numbers {
+  padding: 15px 32px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000362}}
+.numbers .number-box {
+  float: left;
+  margin-left: 20px;
+  width: 285px;
+  border: 1px solid #d3d7da;
+  background-color: #f8f8f8; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000365}}
+.number-box.b1 {
+  margin-left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000368}}
+.image-box {
+  float: left;
+  margin-left: 22px;
+  margin-top: 20px;
+  height: 68px;
+  width: 70px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000371}}
+.number-box .number-box-image {
+  display: block;
+  margin: 15px auto;
+  vertical-align: middle;
+  max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000374}}
+.number-box .number-box-number {
+  float: left;
+  line-height: 5px;
+  padding: 2px 21px;
+  font-size: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000377}}
+.right-box .for-checked {
+  border: 1px solid #dcdcdc;
+  margin: 20px 32px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000380}}
+.right-box .line {
+  border-bottom: 1px solid #dcdcdc;
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000383}}
+.line.after {
+  border-bottom: 1px solid white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000386}}
+.right-box .line .title-image {
+  padding: 15px;
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000389}}
+.right-box .line .checked-word {
+  float: left;
+  color: #707277;
+  font-size: 20px;
+  line-height: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000392}}
+.right-box .line .checked-kind {
+  float: right;
+  margin: 11px 14px;
+  height: 40px;
+  width: 172px;
+  border: 1px solid #C8C8C8;
+  cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000395}}
+.checked-kind .kind {
+  float: left;
+  padding-left: 15px;
+  padding-top: 10px;
+  color: #4b4b4b; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\0000398}}
+.checked-kind .down {
+  padding-left: 65px;
+  padding-top: 17px;
+  cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003101}}
+.line .please-buy {
+  margin: 18px 20px;
+  height: 33px;
+  width: 57px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  background-color: #ff503f;
+  cursor: pointer;
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003104}}
+.line .buy-word {
+  float: left;
+  line-height: 67px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003107}}
+.buy-word.li1 {
+  padding-left: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003110}}
+.buy-word.li2 {
+  padding-left: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003113}}
+.buy-word.li3 {
+  float: left;
+  padding-right: 65px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003117}}
+.buy-word.li4 {
+  float: left;
+  padding-right: 74px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003121}}
+.buy-word.li5 {
+  float: left;
+  padding-right: 28px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003125}}
+.line .buttom {
+  float: left;
+  height: 32px;
+  width: 32px;
+  border: 1px solid #dcdcdc;
+  cursor: pointer;
+  margin-top: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003128}}
+.buttom.after1 {
+  margin-left: 44px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003131}}
+.buttom.after2 {
+  margin-left: 10px;
+  margin-right: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003135}}
+.buttom.after3 {
+  margin-left: 32px;
+  margin-right: 20px;
+  width: 108px;
+  background-color: #ff503f;
+  text-align: center;
+  line-height: 32px;
+  color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003138}}
+.buttom.after4 {
+  background-color: #f1f1f1;
+  width: 108px;
+  margin-left: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003143}}
+.line .buttom .buttom-image {
+  margin: 10px 9px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003146}}
+.line .page-box {
+  padding-bottom: 25px;
+  margin: 0 auto;
+  text-align: center;
+  width: 450px;
+  margin-top: 22px;
+  margin-bottom: 24px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003149}}
+.line .page-box .p {
+  color: #595958;
+  padding: 5px;
+  margin-left: 5px;
+  float: left;
+  border: 1px solid #dcdcdc;
+  cursor: pointer;
+  min-width: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003153}}
+.pt {
+  color: #595958;
+  padding: 5px;
+  margin-left: 5px;
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003156}}
+.tC {
+  background-color: #70bf64; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003159}}
+.pA {
+  background-color: #f0761f;
+  color: #ffffff !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003163}}
+.pf {
+  background-color: #ff503f; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003166}}
+.left-tool-box {
+  min-width: 30%;
+  height: 70px;
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003169}}
+.middle-last-box {
+  float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003172}}
+.middle-tool-box {
+  min-width: 30%;
+  height: 70px;
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003175}}
+.last-tool-box {
+  height: 70px;
+  width: 196px;
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003178}}
+.cue {
+  text-align: center;
+  padding: 5px;
+  display: block;
+  color: #ffffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003182}}
+.hover1 {
+  background-color: #ff503f; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003185}}
+.hover2 {
+  background-color: #70bf64; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003188}}
+.slide-text {
+  position: absolute;
+  width: 20px;
+  min-height: 20px;
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  top: 10px;
+  width: 172px; }
+
+@media screen and (max-width: 1090px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003198}}
+  .number-box.b3 {
+    margin-left: 0;
+    margin-top: 10px; } }
+@media screen and (max-width: 747px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003205}}
+  .number-box.b2 {
+    margin-left: 0;
+    margin-top: 10px; } }
+@media screen and (max-width: 975px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003212}}
+  .h {
+    margin-left: 0;
+    margin-top: 28px;
+    font-size: 19px; } }
+@media screen and (max-width: 812px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003220}}
+  .h {
+    margin-left: 0;
+    margin-top: 30px;
+    font-size: 15px; } }
+@media screen and (max-width: 707px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003228}}
+  .h {
+    margin-left: 0;
+    margin-top: 28px;
+    font-size: 10px; } }
+@media screen and (max-width: 630px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003236}}
+  .title-buttom.h {
+    position: absolute;
+    left: 1000px;
+    top: 20px; } }
+@media screen and (max-width: 422px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/platform\/scss\/fx\.scss}line{font-family:\00003244}}
+  .title.k {
+    position: relative;
+    left: 28px; } }
+
+/*# sourceMappingURL=fx.css.map */

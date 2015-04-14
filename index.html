@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh">
+    <meta charset="UTF-8">
+    <style>
+        *{
+            font-family: 宋体
+        }
+        .clearfix:before,.clearfix:after{
+            content:"";
+            display:table;
+        }
+        .clearfix:after{
+            clear:both;
+        }
+        .clearfix{
+            *zoom:1;/*IE/7/6*/
+        }
+    </style>
+    <link rel="stylesheet" href="dist/css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="scss/fx.css" type="text/css" />
+    <script type="text/javascript" src="jquery-1.6.js"></script>
+    <script type="text/javascript" src="screen.js"></script>
+    <title>易消耗品管理平台</title>
+</head>
+<body>
+<div class="body-box">
+
+    <div class="left-box" style="background-image:url(image/main.png)">
+        <input class="logo" type="image" src="image/logo.png">
+        <input class="line1" type="image" src="image/line1.png">
+        <input class="line" type="image" src="image/line.png">
+        <input class="function" type="image" src="image/f1.png">
+        <div class="function-word">首页</div>
+        <input class="line" type="image" src="image/line.png" style="padding-top: 35px;">
+        <input class="function" type="image" src="image/f2.png">
+        <div class="function-word" style="color:#666768 ">固定资产</div>
+        <input class="line" type="image" src="image/line.png" style="padding-top: 35px;">
+        <input class="function" type="image" src="image/f3.png">
+        <div class="function-word" style="color:#666768 ">大件低值</div>
+        <input class="line" type="image" src="image/line.png" style="padding-top: 35px;">
+        <input class="function" type="image" src="image/f4.png">
+        <div class="function-word" style="color:#666768 ">小件物品</div>
+        <div class="function-footer-box">
+            <input class="function" type="image" src="image/f5.png">
+            <div class="function-word" style="color:#666768 ">系统设置</div>
+            <input class="line" type="image" src="image/line.png" style="padding-top: 35px;">
+            <input class="function" type="image" src="image/f6.png">
+            <div class="function-word" style="padding-bottom: 40px">推出登录</div>
+        </div>
+    </div>
+
+    <div class="right-box clearfix">
+        <div>
+        <div class="title k">
+            <div class="h2" style="color:#4b4b4b"><h2 class="h">闵行区古美街道固定资产及大件低值易耗品管理平台</h2></div>
+            <div class="title-buttom h" style="border-radius:20px">
+                <div class="customer-center" style="border-radius:22px">保障中心</div>
+                <div class="name">陆小艺</div>
+                <input class="down-buttom" type="image" src="image/down.png">
+            </div>
+            <div class="clearfix"></div>
+            <div class="home">首页</div>
+        </div>
+        </div>
+        <div class="numbers">
+            <div class="number-box b1">
+                <div class="image-box" style="background-color: #ffc76c">
+                    <input type="image" class="number-box-image" src="image/number1.png">
+                </div>
+                <div class="number-box-number">
+                    <p><b>固定资产总数</b></p>
+                    <p style="font-size: 44px; font-family:Myriad Pro;">3,352</p>
+                </div>
+            </div>
+            <div class="number-box b2">
+                <div class="image-box" style="background-color: #cb93dd">
+                    <input type="image" class="number-box-image" src="image/number2.png">
+                </div>
+                <div class="number-box-number">
+                    <p><b>大件低值易耗品总数</b></p>
+                    <p style="font-size: 44px; font-family:Myriad Pro;">1,231</p>
+                </div>
+            </div>
+            <div class="number-box b3">
+                <div class="image-box" style="background-color: #84c0eb">
+                    <input type="image" class="number-box-image" src="image/number3.png">
+                </div>
+                <div class="number-box-number">
+                    <p><b>小件物品总数</b></p>
+                    <p style="font-size: 44px; font-family:Myriad Pro;">5,227</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="for-checked" style="border-radius:2px">
+            <div class="line">
+                <input type="image" class="title-image" src="image/title-.png">
+                <span class="checked-word"><b>待审核</b></span>
+                <select class="checked-kind" style="border-radius:22px">
+                    <option class="kind">筛选类型</option>
+                </select>
+                <div class="clearfix"></div>
+            </div>
+            <div class="line">
+                <div class="left-tool-box">
+                    <div class="please-buy" style="border-radius:5px">请购</div>
+                    <span class="buy-word li1"><b>固定资产</b></span>
+                    <a class="buy-word li2" style="cursor: pointer">惠普笔记本电脑</a>
+                </div>
+                <div  class="middle-last-box">
+                <div class="middle-tool-box">
+                    <span class="buy-word li3">古美一村</span>
+                    <span class="buy-word li4">1台</span>
+                    <span class="buy-word li5">2014年5月28日</span>
+                </div>
+                <div class="last-tool-box">
+                    <div class="buttom after0" style="border-radius:2000px">
+                        <input type="image" class="buttom-image" src="image/find.png">
+                    </div>
+                    <div class="buttom after1" style="border-radius:2000px">
+                        <input type="image" class="buttom-image a1" src="image/false.png">
+                        <span class="cue a1" style="display: none" >未通过</span>
+                    </div>
+                    <div class="buttom after2" style="border-radius:2000px">
+                        <input type="image" class="buttom-image b1" src="image/true.png">
+                        <span class="cue b1" style="display: none" >已通过</span>
+                    </div>
+                </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="line">
+                <div class="left-tool-box">
+                    <div class="please-buy" style="border-radius:5px;background-color: #fe9c1c">登记</div>
+                    <span class="buy-word li1"><b>固定资产</b></span>
+                    <a class="buy-word li2" style="cursor: pointer">佳能一体复印机</a>
+                </div>
+                <div  class="middle-last-box">
+                    <div class="middle-tool-box">
+                        <span class="buy-word li3">古美一村</span>
+                        <span class="buy-word li4">1台</span>
+                        <span class="buy-word li5">2014年5月28日</span>
+                    </div>
+                    <div class="last-tool-box">
+                        <div class="buttom after0" style="border-radius:2000px">
+                            <input type="image" class="buttom-image" src="image/find.png">
+                        </div>
+                        <div class="buttom after1" style="border-radius:2000px">
+                            <input type="image" class="buttom-image a1" src="image/false.png">
+                            <span class="cue a1" style="display: none" >未通过</span>
+                        </div>
+                        <div class="buttom after2" style="border-radius:2000px">
+                            <input type="image" class="buttom-image b1" src="image/true.png">
+                            <span class="cue b1" style="display: none" >已通过</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="line">
+                <div class="left-tool-box">
+                    <div class="please-buy" style="border-radius:5px;background-color: #fe9c1c">登记</div>
+                    <span class="buy-word li1"><b>固定资产</b></span>
+                    <a class="buy-word li2" style="cursor: pointer">美的柜式空调</a>
+                </div>
+                <div  class="middle-last-box">
+                    <div class="middle-tool-box">
+                        <span class="buy-word li3">古美一村</span>
+                        <span class="buy-word li4">1台</span>
+                        <span class="buy-word li5">2014年5月28日</span>
+                    </div>
+                    <div class="last-tool-box">
+                        <div class="buttom after0" style="border-radius:2000px">
+                            <input type="image" class="buttom-image" src="image/find.png">
+                        </div>
+                        <div class="buttom after1" style="border-radius:2000px">
+                            <input type="image" class="buttom-image a1" src="image/false.png">
+                            <span class="cue a1" style="display: none" >未通过</span>
+                        </div>
+                        <div class="buttom after2" style="border-radius:2000px">
+                            <input type="image" class="buttom-image b1" src="image/true.png">
+                            <span class="cue b1" style="display: none" >已通过</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="line">
+                <div class="left-tool-box">
+                    <div class="please-buy" style="border-radius:5px;background-color: #0b97d4">维修</div>
+                    <span class="buy-word li1"><b>固定资产</b></span>
+                    <a class="buy-word li2" style="cursor: pointer">美的壁挂式空调</a>
+                </div>
+                <div  class="middle-last-box">
+                    <div class="middle-tool-box">
+                        <span class="buy-word li3">古美一村</span>
+                        <span class="buy-word li4">1台</span>
+                        <span class="buy-word li5">2014年5月28日</span>
+                    </div>
+                    <div class="last-tool-box">
+                        <div class="buttom after0" style="border-radius:2000px">
+                            <input type="image" class="buttom-image" src="image/find.png">
+                        </div>
+                        <div class="buttom after1" style="border-radius:2000px">
+                            <input type="image" class="buttom-image a1" src="image/false.png">
+                            <span class="cue a1" style="display: none" >未通过</span>
+                        </div>
+                        <div class="buttom after2" style="border-radius:2000px">
+                            <input type="image" class="buttom-image b1" src="image/true.png">
+                            <span class="cue b1" style="display: none" >已通过</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="line">
+                <div class="left-tool-box">
+                    <div class="please-buy" style="border-radius:5px;background-color: #30c7d5">清理</div>
+                    <span class="buy-word li1"><b>固定资产</b></span>
+                    <a class="buy-word li2" style="cursor: pointer">爱国者录音笔</a>
+                </div>
+                <div  class="middle-last-box">
+                    <div class="middle-tool-box">
+                        <span class="buy-word li3">古美一村</span>
+                        <span class="buy-word li4">1台</span>
+                        <span class="buy-word li5">2014年5月28日</span>
+                    </div>
+                    <div class="last-tool-box">
+                        <div class="buttom after0" style="border-radius:2000px">
+                            <input type="image" class="buttom-image" src="image/find.png">
+                        </div>
+                        <div class="buttom after1" style="border-radius:2000px">
+                            <input type="image" class="buttom-image a1" src="image/false.png">
+                            <span class="cue a1" style="display: none" >未通过</span>
+                        </div>
+                        <div class="buttom after2" style="border-radius:2000px">
+                            <input type="image" class="buttom-image b1" src="image/true.png">
+                            <span class="cue b1" style="display: none" >已通过</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="line" style="border-bottom: 1px solid white">
+                <div class="page-box" style="border-bottom: 1px solid white">
+                    <div class="p">首页</div>
+                    <div class="p"><</div>
+                    <div class="p">1</div>
+                    <div class="p">2</div>
+                    <div class="p">3</div>
+                    <div class="pt">....</div>
+                    <div class="p">15</div>
+                    <div class="p">30</div>
+                    <div class="p">45</div>
+                    <div class="p">></div>
+                    <div class="p">尾页</div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <div class="for-checked" style="border-radius:2px">
+            <div class="line">
+                <input type="image" class="title-image" src="image/fx.png">
+                <samp class="checked-word"><b>操作记录</b></samp>
+                <div class="checked-kind c2" style="border-radius:22px">
+                    <div class="kind">筛选类型</div>
+                    <input type="image" class="down" src="image/down.png">
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="line">
+                <div class="left-tool-box">
+                    <div class="please-buy" style="border-radius:5px;background-color: #fe9c1c">登记</div>
+                    <span class="buy-word li1"><b>固定资产</b></span>
+                    <a class="buy-word li2" style="cursor: pointer">惠普笔记本电脑</a>
+                </div>
+                <div  class="middle-last-box">
+                    <div class="middle-tool-box">
+                        <span class="buy-word li3">古美一村</span>
+                        <span class="buy-word li4">1台</span>
+                        <span class="buy-word li5">2014年5月28日</span>
+                    </div>
+                    <div class="last-tool-box">
+                        <div class="buttom after0" style="border-radius:2000px">
+                            <input type="image" class="buttom-image" src="image/find.png">
+                        </div>
+                        <div class="buttom after1" style="border-radius:2000px;display: block;display: none">
+                            <input type="image" class="buttom-image a1" src="image/false.png">
+                            <span class="cue a1" >未通过</span>
+                        </div>
+                        <div class="buttom after2" style="border-radius:2000px;display: block;display: none">
+                            <input type="image" class="buttom-image b1" src="image/true.png">
+                            <span class="cue b1" >已审核</span>
+                        </div>
+                        <div class="buttom after4" style="border-radius:20px">
+                            <span class="cue b1" style="color:#4b4b4b ">待审核</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="line">
+                <div class="left-tool-box">
+                    <div class="please-buy" style="border-radius:5px;background-color: #fe9c1c">登记</div>
+                    <span class="buy-word li1"><b>固定资产</b></span>
+                    <a class="buy-word li2" style="cursor: pointer">佳能一体复印机</a>
+                </div>
+                <div  class="middle-last-box">
+                    <div class="middle-tool-box">
+                        <span class="buy-word li3">古美一村</span>
+                        <span class="buy-word li4">1台</span>
+                        <span class="buy-word li5">2014年5月28日</span>
+                    </div>
+                    <div class="last-tool-box">
+                        <div class="buttom after0" style="border-radius:2000px">
+                            <input type="image" class="buttom-image" src="image/find.png">
+                        </div>
+                        <div class="buttom after1" style="border-radius:2000px;display: block;display: none">
+                            <input type="image" class="buttom-image a1" src="image/false.png">
+                            <span class="cue a1" >未通过</span>
+                        </div>
+                        <div class="buttom after2" style="border-radius:2000px;display: block;display: none">
+                            <input type="image" class="buttom-image b1" src="image/true.png">
+                            <span class="cue b1" >已审核</span>
+                        </div>
+                        <div class="buttom after4" style="border-radius:20px">
+                            <span class="cue b1" style="color:#4b4b4b ">待审核</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="line">
+                <div class="left-tool-box">
+                    <div class="please-buy" style="border-radius:5px;background-color: #fe9c1c">登记</div>
+                    <span class="buy-word li1"><b>固定资产</b></span>
+                    <a class="buy-word li2" style="cursor: pointer">美的柜式空调</a>
+                </div>
+                <div  class="middle-last-box">
+                    <div class="middle-tool-box">
+                        <span class="buy-word li3">古美一村</span>
+                        <span class="buy-word li4">1台</span>
+                        <span class="buy-word li5">2014年5月28日</span>
+                    </div>
+                    <div class="last-tool-box">
+                        <div class="buttom after0" style="border-radius:2000px">
+                            <input type="image" class="buttom-image" src="image/find.png">
+                        </div>
+                        <div class="buttom after1" style="border-radius:2000px;display: block;display: none">
+                            <input type="image" class="buttom-image a1" src="image/false.png">
+                            <span class="cue a1" >未通过</span>
+                        </div>
+                        <div class="buttom after2" style="border-radius:2000px;display: block;display: none">
+                            <input type="image" class="buttom-image b1" src="image/true.png">
+                            <span class="cue b1" >已审核</span>
+                        </div>
+                        <div class="buttom after4" style="border-radius:20px">
+                            <span class="cue b1" style="color:#4b4b4b ">待审核</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="line">
+                <div class="left-tool-box">
+                    <div class="please-buy" style="border-radius:5px;background-color: #fe9c1c">登记</div>
+                    <span class="buy-word li1"><b>固定资产</b></span>
+                    <a class="buy-word li2" style="cursor: pointer">美的壁挂式空调</a>
+                </div>
+                <div  class="middle-last-box">
+                    <div class="middle-tool-box">
+                        <span class="buy-word li3">古美一村</span>
+                        <span class="buy-word li4">1台</span>
+                        <span class="buy-word li5">2014年5月28日</span>
+                    </div>
+                    <div class="last-tool-box">
+                        <div class="buttom after0" style="border-radius:2000px">
+                            <input type="image" class="buttom-image" src="image/find.png">
+                        </div>
+                        <div class="buttom after1" style="border-radius:2000px;display: block;display: none">
+                            <input type="image" class="buttom-image a1" src="image/false.png">
+                            <span class="cue a1" >未通过</span>
+                        </div>
+                        <div class="buttom after2" style="border-radius:2000px;display: block;display: none">
+                            <input type="image" class="buttom-image b1" src="image/true.png">
+                            <span class="cue b1" >已审核</span>
+                        </div>
+                        <div class="buttom after4" style="border-radius:20px">
+                            <span class="cue b1" style="color:#4b4b4b ">待审核</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="line">
+                <div class="left-tool-box">
+                    <div class="please-buy" style="border-radius:5px;background-color: #fe9c1c">登记</div>
+                    <span class="buy-word li1"><b>固定资产</b></span>
+                    <a class="buy-word li2" style="cursor: pointer">爱国者录音笔</a>
+                </div>
+                <div  class="middle-last-box">
+                    <div class="middle-tool-box">
+                        <span class="buy-word li3">古美一村</span>
+                        <span class="buy-word li4">1台</span>
+                        <span class="buy-word li5">2014年5月28日</span>
+                    </div>
+                    <div class="last-tool-box">
+                        <div class="buttom after0" style="border-radius:2000px">
+                            <input type="image" class="buttom-image" src="image/find.png">
+                        </div>
+                        <div class="buttom after1" style="border-radius:2000px;display: block;display: none">
+                            <input type="image" class="buttom-image a1" src="image/false.png">
+                            <span class="cue a1" >未通过</span>
+                        </div>
+                        <div class="buttom after2" style="border-radius:2000px;display: block;display: none">
+                            <input type="image" class="buttom-image b1" src="image/true.png">
+                            <span class="cue b1" >已审核</span>
+                        </div>
+                        <div class="buttom after4" style="border-radius:20px">
+                            <span class="cue b1" style="color:#4b4b4b ">待审核</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="line" style="border-bottom: 1px solid white">
+                <div class="page-box">
+                    <div class="p">首页</div>
+                    <div class="p"><</div>
+                    <div class="p">1</div>
+                    <div class="p">2</div>
+                    <div class="p">3</div>
+                    <div class="pt">...</div>
+                    <div class="p">15</div>
+                    <div class="p">30</div>
+                    <div class="p">45</div>
+                    <div class="p">></div>
+                    <div class="p">尾页</div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+</body>
+</html>
